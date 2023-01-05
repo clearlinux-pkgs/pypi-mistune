@@ -4,7 +4,7 @@
 #
 Name     : pypi-mistune
 Version  : 2.0.4
-Release  : 58
+Release  : 59
 URL      : https://files.pythonhosted.org/packages/cd/9b/0f98334812f548a5ee4399b76e33752a74fc7bb976f5efb34d962f03d585/mistune-2.0.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cd/9b/0f98334812f548a5ee4399b76e33752a74fc7bb976f5efb34d962f03d585/mistune-2.0.4.tar.gz
 Summary  : A sane Markdown parser with useful plugins and renderers
