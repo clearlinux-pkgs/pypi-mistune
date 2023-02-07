@@ -1,5 +1,5 @@
 PKG_NAME := pypi-mistune
-URL = https://files.pythonhosted.org/packages/cd/9b/0f98334812f548a5ee4399b76e33752a74fc7bb976f5efb34d962f03d585/mistune-2.0.4.tar.gz
+URL = https://files.pythonhosted.org/packages/fb/6b/d8013058fcdb0088b4130164fc961e15c50d30302f60a349c16bdfda9770/mistune-2.0.5.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
