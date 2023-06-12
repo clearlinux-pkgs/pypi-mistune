@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-mistune
-Version  : 3.0.0
-Release  : 61
-URL      : https://files.pythonhosted.org/packages/a7/ef/aa3f6c66f3d8941814ba1d307d868f4f278f01f7d0c146f2908942b5d43e/mistune-3.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/a7/ef/aa3f6c66f3d8941814ba1d307d868f4f278f01f7d0c146f2908942b5d43e/mistune-3.0.0.tar.gz
+Version  : 3.0.1
+Release  : 62
+URL      : https://files.pythonhosted.org/packages/0c/88/6862147c3203750cef135070fe9f841d82146c4206f55239592bcc27b0cd/mistune-3.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/0c/88/6862147c3203750cef135070fe9f841d82146c4206f55239592bcc27b0cd/mistune-3.0.1.tar.gz
 Summary  : A sane and fast Markdown parser with useful plugins and renderers
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -53,10 +53,10 @@ python3 components for the pypi-mistune package.
 
 
 %prep
-%setup -q -n mistune-3.0.0
-cd %{_builddir}/mistune-3.0.0
+%setup -q -n mistune-3.0.1
+cd %{_builddir}/mistune-3.0.1
 pushd ..
-cp -a mistune-3.0.0 buildavx2
+cp -a mistune-3.0.1 buildavx2
 popd
 
 %build
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1686240316
+export SOURCE_DATE_EPOCH=1686583716
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
