@@ -5,7 +5,7 @@
 #
 Name     : pypi-mistune
 Version  : 3.0.2
-Release  : 63
+Release  : 64
 URL      : https://files.pythonhosted.org/packages/ef/c8/f0173fe3bf85fd891aee2e7bcd8207dfe26c2c683d727c5a6cc3aec7b628/mistune-3.0.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ef/c8/f0173fe3bf85fd891aee2e7bcd8207dfe26c2c683d727c5a6cc3aec7b628/mistune-3.0.2.tar.gz
 Summary  : A sane and fast Markdown parser with useful plugins and renderers
